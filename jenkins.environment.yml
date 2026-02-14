@@ -40,4 +40,4 @@ dependencies:
   - pyparsing
   - kiwisolver
   - diskcache
-  - dms-datastore=0.4.15
+  - dms-datastore=0.4.22
