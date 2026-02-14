@@ -25,6 +25,8 @@ dependencies:
   - pytz # a new hrrr dependency ?
   - pyshp # a new schimpy dependency ?
   - schimpy # remove this!
+  - tabula-py #>=2.9.0  # installed via pip to avoid conda channel conflicts (conda-forge is outdated)
+  - jpype1  
   - eccodes
   - bokeh
   - hvplot
@@ -39,6 +41,3 @@ dependencies:
   - kiwisolver
   - diskcache
   - dms-datastore=0.4.12
-  - pip:
-    - tabula-py>=2.9.0  # installed via pip to avoid conda channel conflicts (conda-forge is outdated)
-    - jpype1
